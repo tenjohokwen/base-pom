@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.mvn</groupId>
   <artifactId>base-pom</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>base-pom</name>
 
@@ -130,7 +130,7 @@
                             <prefix>git</prefix>
                             <dateFormat>dd.MM.yyyy '@' HH:mm:ss z</dateFormat>
                             <verbose>true</verbose>
-                            <dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
+                            <dotGitDirectory>${basedir}/.git</dotGitDirectory>
                             <skipPoms>true</skipPoms>
                             <!-- this is false by default, forces the plugin to generate the git.properties file -->
                             <generateGitPropertiesFile>false</generateGitPropertiesFile>
@@ -548,7 +548,7 @@
                 <id>checkstyle-not-configured</id>
                 <activation>
                     <file>
-                        <missing>${project.basedir}/src/test/resources/checkstyle.xml</missing>
+                        <missing>${basedir}/src/test/resources/checkstyle.xml</missing>
                     </file>
                 </activation>
                 <properties>
@@ -603,7 +603,7 @@
                                         <logViolationsToConsole>true</logViolationsToConsole>
                                         <failOnViolation>false</failOnViolation>
                                         <maxAllowedViolations>10</maxAllowedViolations>
-                                        <configLocation>${project.basedir}/src/test/resources/checkstyle.xml</configLocation>
+                                        <configLocation>${basedir}/src/test/resources/checkstyle.xml</configLocation>
                                         <includeTestSourceDirectory>true</includeTestSourceDirectory>
                                         <outputFileFormat>xml</outputFileFormat>
                                     </configuration>
