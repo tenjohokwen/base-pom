@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.mvn</groupId>
   <artifactId>base-pom</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>pom</packaging>
   <name>base-pom</name>
 
@@ -674,7 +674,7 @@
         <connection>scm:git:git@github.com:bluebone29/mvn-release.git</connection>
         <url>scm:git:git@github.com:bluebone29/mvn-release.git</url>
         <developerConnection>scm:git:git@github.com:bluebone29/mvn-release.git</developerConnection>
-      <tag>base-pom-1.0</tag>
+      <tag>v1.1</tag>
   </scm>
 
 </project>
