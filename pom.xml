@@ -661,7 +661,7 @@
                                 </execution>
                             </executions>
                             <configuration>
-                                <serverId>nexus-releases</serverId>
+                                <serverId>local-nexus-release</serverId>
                                 <nexusUrl>http://localhost:8085/nexus/</nexusUrl>
                                 <skipStaging>true</skipStaging>
                             </configuration>
