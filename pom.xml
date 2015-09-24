@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mvn</groupId>
     <artifactId>base-pom</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5</version>
     <packaging>pom</packaging>
     <name>base-pom</name>
 
@@ -68,7 +67,7 @@
     <!-- for pulling dependencies -->
     <repositories>
         <repository>
-            <releases/>
+            <releases />
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -116,7 +115,7 @@
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <releases/>
+            <releases />
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -724,7 +723,7 @@
         <connection>scm:git:git@github.com:bluebone29/base-pom.git</connection>
         <url>scm:git:git@github.com:bluebone29/base-pom.git</url>
         <developerConnection>scm:git:git@github.com:bluebone29/base-pom.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.5</tag>
     </scm>
 
 </project>
