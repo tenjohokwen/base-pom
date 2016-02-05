@@ -759,9 +759,9 @@
         </profile>
     </profiles>
     <scm>
-        <connection>scm:git:git@github.com:bluebone29/base-pom.git</connection>
-        <url>scm:git:git@github.com:bluebone29/base-pom.git</url>
-        <developerConnection>scm:git:git@github.com:bluebone29/base-pom.git</developerConnection>
+        <connection>scm:git:git@github.com:tenjohokwen/base-pom.git</connection>
+        <url>scm:git:git@github.com:tenjohokwen/base-pom.git</url>
+        <developerConnection>scm:git:git@github.com:tenjohokwen/base-pom.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
