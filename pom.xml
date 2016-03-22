@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mvn</groupId>
     <artifactId>base-pom</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <version>1.7</version>
     <packaging>pom</packaging>
     <name>base-pom</name>
 
@@ -762,7 +762,7 @@
         <connection>scm:git:git@github.com:tenjohokwen/base-pom.git</connection>
         <url>scm:git:git@github.com:tenjohokwen/base-pom.git</url>
         <developerConnection>scm:git:git@github.com:tenjohokwen/base-pom.git</developerConnection>
-        <tag>mav1</tag>
+        <tag>v1.7</tag>
     </scm>
 
 </project>
