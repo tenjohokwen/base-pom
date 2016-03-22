@@ -57,12 +57,12 @@
     <!-- for releases -->
     <distributionManagement>
         <repository>
-            <id>local-nexus-releases</id>
-            <url>http://localhost:8085/nexus/content/repositories/releases</url>
+            <id>maviance-nexus-releases</id>
+            <url>http://mavdev.eu:5599/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>local-nexus-releases</id>
-            <url>http://localhost:8085/nexus/content/repositories/snapshots</url>
+            <id>maviance-nexus-releases</id>
+            <url>http://mavdev.eu:5599/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -73,9 +73,9 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <id>local-nexus-release</id>
+            <id>maviance-nexus-releases</id>
             <name>Releases Repository</name>
-            <url>http://localhost:8085/nexus/content/groups/public</url>
+            <url>http://mavdev.eu:5599/nexus/content/groups/public</url>
         </repository>
         <repository>
             <id>central-maven</id>
@@ -121,9 +121,9 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <id>local-nexus-release</id>
+            <id>maviance-nexus-release</id>
             <name>Releases Repository</name>
-            <url>http://localhost:8085/nexus/content/groups/public</url>
+            <url>http://mavdev.eu:5599/nexus/content/groups/public</url>
         </pluginRepository>
         <pluginRepository>
             <id>spring-snapshots</id>
@@ -749,8 +749,8 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <serverId>local-nexus-releases</serverId>
-                            <nexusUrl>http://localhost:8085/nexus/</nexusUrl>
+                            <serverId>maviance-nexus-releases</serverId>
+                            <nexusUrl>http://mavdev.eu:5599/nexus/</nexusUrl>
                             <skipStaging>true</skipStaging>
                         </configuration>
                     </plugin>
@@ -762,7 +762,7 @@
         <connection>scm:git:git@github.com:tenjohokwen/base-pom.git</connection>
         <url>scm:git:git@github.com:tenjohokwen/base-pom.git</url>
         <developerConnection>scm:git:git@github.com:tenjohokwen/base-pom.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>mav1</tag>
     </scm>
 
 </project>
